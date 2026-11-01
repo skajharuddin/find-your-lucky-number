@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NameLuck: Find Your Lucky Number</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><span class="logo">NameLuck</span></header>
+<main>
+  <section id="home" class="card">
+    <h1>Find your lucky number</h1>
+    <p class="sub">Type your name and discover your lucky number and color. (তোমার নাম লিখে জানো তোমার ভাগ্যবান সংখ্যা ও রং।)</p>
+    <label for="name">Your name (তোমার নাম)</label>
+    <input id="name" type="text" maxlength="30" autocomplete="off">
+    <button id="go">Reveal my luck (আমার ভাগ্য দেখো)</button>
+  </section>
+  <section id="term" hidden>
+    <div id="log" aria-live="polite"></div>
+    <button id="again" hidden>Back to home (হোমে ফিরে যাও)</button>
+    <p id="note" hidden>This was not real hacking, just a prank. (এটা আসল হ্যাকিং ছিল না, শুধু মজা।)</p>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
